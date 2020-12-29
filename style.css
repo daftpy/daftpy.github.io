@@ -48,7 +48,7 @@ body {
   iframe {
     display: block;
     margin: 0 auto;
-    width: 818px;
+    width: calc(100% + 18px);
     height: 54em;
     border: none;
   }
