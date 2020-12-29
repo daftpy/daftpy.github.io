@@ -8,52 +8,61 @@ body {
     /* background-color: #1B1B21; */
     background: linear-gradient(rgba(9,9,10,1) 0%, rgba(27,27,33,1) 100%);
     height: 100%;
-  }
-  .container {
-    display: flex column;
-    margin: 0 auto;
-    max-width: 800px;
-    align-items: center;
-    overflow-x: hidden;
-  }
-  .top-fold {
-    display: flex;
-    justify-content: space-around;
-    min-height: calc(100vh - 54em);
-    color: white;
-  }
-  .social {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding: 2em 0;
-  }
-  .social a {
+    font-family: 'Open Sans', sans-serif;
     color: aliceblue;
-    text-decoration: none;
   }
-  .social i {
-    padding: .1em 0;
-  }
-  .youtube a:hover {
-    color: #FF0000;
-  }
-  .spotify a:hover {
-    color: #1DB954;
-  }
-  .beatstar a:hover {
-    color: #ed1c24;
-  }
-  iframe {
-    display: block;
-    margin: 0 auto;
-    width: calc(100% + 18px);
-    height: 54em;
-    border: none;
-    border-radius: 3px;
-  }
-  i ::-webkit-scrollbar, ::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+body h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 0;
+}
+.container {
+  display: flex column;
+  margin: 0 auto;
+  max-width: 800px;
+  align-items: center;
+  overflow-x: hidden;
+}
+.top-fold {
+  display: flex;
+  justify-content: space-around;
+  min-height: calc(100vh - 54em);
+  color: white;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1.5em 0;
+}
+.social a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.social i {
+  padding: .1em 0;
+}
+.youtube a:hover {
+  color: #FF0000;
+}
+.spotify a:hover {
+  color: #1DB954;
+}
+.twitch a:hover {
+  color: #6441A4;
+}
+.beatstar a:hover {
+  color: #ed1c24;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: calc(100% + 18px);
+  height: 54em;
+  border: none;
+  border-radius: 3px;
+}
+i ::-webkit-scrollbar, ::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
