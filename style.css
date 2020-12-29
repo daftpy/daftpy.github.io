@@ -51,6 +51,8 @@ body {
     width: calc(100% + 18px);
     height: 54em;
     border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
   }
   i ::-webkit-scrollbar, ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
